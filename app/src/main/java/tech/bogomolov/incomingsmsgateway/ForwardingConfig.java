@@ -86,7 +86,7 @@ public class ForwardingConfig {
     }
 
     public static String getDefaultJsonTemplate() {
-        return "{\n  \"from\":\"%from%\",\n  \"text\":\"%text%\",\n  \"sentStamp\":%sentStamp%,\n  \"receivedStamp\":%receivedStamp%,\n  \"sim\":\"%sim%\"\n}";
+        return "{\n  \"content\":\"%text%\",\n}";
     }
 
     public static String getDefaultJsonHeaders() {
